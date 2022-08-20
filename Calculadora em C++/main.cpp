@@ -4,7 +4,7 @@ using namespace std;
 int main() {
   cout << "Bem vindo a calculadora de números inteiros \n" << endl;
 
-  int op1, op2, val1, val2;
+  int op, op1, val1, val2;
   
   
   cout << "\tInforme o primeiro e o segundo valor:\t\n " << endl;
@@ -15,10 +15,10 @@ int main() {
   cout << "\t\t| [2] SUBTRAÇÃO| \n";
   cout << "\t\t| [3] DIVISÃO| \n";
   cout << "\t\t| [4] MULTIPLICAÇÃO| \n";
-  cin >> op1;
+  cin >> op;
 
 
-  switch(op1)
+  switch(op)
     {
       case 1: 
         cout << "O valor da soma dos valores é: " << val1 + val2 << endl;
@@ -38,9 +38,9 @@ int main() {
   cout << "\n Deseja fazer outra operação? \n" << endl;
   cout << "\t\t | [1] SIM |" << endl;
   cout << "\t\t | [2] NÃO |" << endl;
-  cin >> op2;
+  cin >> op1;
 
-    if (op2 == 1){
+    if (op1 == 1){
         cout << "Reinicie o programa " << endl;
       }
     else

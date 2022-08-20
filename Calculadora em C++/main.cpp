@@ -41,7 +41,7 @@ int main() {
   cin >> op1;
 
     if (op1 == 1){
-        cout << "Reinicie o programa " << endl;
+        cout << "Reinicie o programa :) " << endl;
       }
     else
     {
